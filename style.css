@@ -1,0 +1,32 @@
+.navbar{
+    background-color: #AA77FF !important;
+}
+
+.logo{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+
+.btn{
+    background-color: #AA77FF !important;
+    border: none;
+}
+
+.signTab{
+    padding: 10px 20px;
+}
+
+.logTab{
+    background-color: #AA77FF !important;
+    border-radius: 5px;
+}
+
+.logBtn{
+    background-color: #ffffff !important;
+    color: #AA77FF !important;
+    font-weight: bolder;
+}
+
+.logLabel{
+    color: #ffffff !important;
+}
