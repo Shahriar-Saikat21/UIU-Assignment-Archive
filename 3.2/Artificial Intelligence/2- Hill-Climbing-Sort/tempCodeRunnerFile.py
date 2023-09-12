@@ -1,0 +1,1 @@
+print("Final State: ",currentState," ",currentStateCost)

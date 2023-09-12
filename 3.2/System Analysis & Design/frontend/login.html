@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./image/logo.png" sizes="16x16">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/bootstrap.min.js" defer></script>
+    <script src="./js/login.js" defer></script>
+    <title>MemoryBook || Login</title>
+</head>
+<body>
+    <section>
+        <div class="d-flex flex-column min-vh-100 align-items-center justify-content-center">
+            <h1 class="d-block text-center text-primary mb-3">Welcome to MemoryBook</h1>
+            <div class="form-text text-danger invalidP"></div>
+            <form class="border rounded border-primary w-50 p-5 form">
+                <div class="mb-3">
+                  <label class="form-label">Email</label>
+                  <input type="text" class="form-control" name="email" required>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Password</label>
+                  <input type="password" class="form-control" name="password" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Log in</button>
+                <p class="mt-2">not sign up yet ? please <a href="/signup">Sign up</a> here</p>
+            </form>
+        </div>    
+    </section>  
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./image/logo.png" sizes="16x16">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/bootstrap.min.js" defer></script>
+    <script src="./js/logout.js" defer></script>
+    <script src="./js/storyDetail.js" defer></script>
+    <script src="./js/deleteStory.js" defer></script>
+    <title>MemoryBook || My Memory</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary fixed">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="/home">Memory Book</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="/home">Back</a>
+                    </li>
+                </ul>    
+                <a class="btn btn-primary aTag"  role="button">Log Out</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="d-flex flex-column justify-content-center my-4 section">
+            <img src="" class="img-fluid img-thumbnail image"  alt="...">
+            <h1 class="hTag my-3 text-primary"></h1>
+            <p class="dTag mb-2"></p>
+            <p class="pTag mb-4"></p>
+        </div>
+        <div class="d-flex align-items-center justify-content-center my-4 section">
+            <a class="btn btn-secondary me-3 update" href="/updateMemory" role="button">Update</a>
+            <button type="button" class="btn btn-danger me-3 delete">Delete</button>
+        </div>
+    </div>
+</body>
+</html>

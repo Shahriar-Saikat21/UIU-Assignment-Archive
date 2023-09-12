@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./image/logo.png" sizes="16x16">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.min.js" defer></script>
+    <script src="./js/logout.js" defer></script>
+    <script src="./js/updateMemory.js" defer></script>
+    <title>MemoryBook || Update Memory</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary fixed">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="/home">Memory Book</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="/home">Home</a>
+                </li>
+                </ul>    
+                <a class="btn btn-primary aTag"  role="button">Log Out</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h2 class=" text-primary mt-2">Update Memory</h2>
+        <form action="#" enctype="multipart/form-data" method="post">
+            <div class="mb-3">
+              <label class="form-label">Title</label>
+              <input type="text" class="form-control title" name="title" required placeholder="Give a title of the memory">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Memory Detail </label>
+                <textarea class="form-control memory" name="story" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary updateBtn">Update the Memory</button>
+        </form>
+        
+    </div>
+</body>
+</html>
