@@ -1,0 +1,82 @@
+No process is in Ready Queue
+Global time: 0
+Process 1 is running
+Global time: 1
+Process 1 is running
+Global time: 2
+Process 1 is running
+Global time: 3
+Process 1 is running
+Global time: 4
+Process 1 is running
+Global time: 5
+Process 1 is running
+Global time: 6
+********Process Id: 1 completed its job********
+Process 3 is running
+Global time: 7
+Process 3 is running
+Global time: 8
+Process 3 is running
+Global time: 9
+Process 3 is running
+Global time: 10
+********Process Id: 3 completed its job********
+Process 2 is running
+Global time: 11
+Process 2 is running
+Global time: 12
+********Process Id: 2 completed its job********
+Process 4 is running
+Global time: 13
+Process 4 is running
+Global time: 14
+Process 4 is running
+Global time: 15
+********Process Id: 4 completed its job********
+No process is in Ready Queue
+Global time: 16
+No process is in Ready Queue
+Global time: 17
+Process 6 is running
+Global time: 18
+Process 6 is running
+Global time: 19
+Process 6 is running
+Global time: 20
+********Process Id: 6 completed its job********
+Process 5 is running
+Global time: 21
+Process 5 is running
+Global time: 22
+********Process Id: 5 completed its job********
+No process is in Ready Queue
+Global time: 23
+No process is in Ready Queue
+Global time: 24
+No process is in Ready Queue
+Global time: 25
+No process is in Ready Queue
+Global time: 26
+No process is in Ready Queue
+Global time: 27
+No process is in Ready Queue
+Global time: 28
+No process is in Ready Queue
+Global time: 29
+No process is in Ready Queue
+Global time: 30
+No process is in Ready Queue
+Global time: 31
+No process is in Ready Queue
+Global time: 32
+No process is in Ready Queue
+Global time: 33
+No process is in Ready Queue
+Global time: 34
+----------Simulation ended-----------
+Average waiting time : 7.0
+Average turnaround time : 3.6666667
+Min wait time: 0 processID: 1 6 
+Max wait time: 8 processID: 2 
+Process finished with exit code 0

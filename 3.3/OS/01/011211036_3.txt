@@ -1,0 +1,21 @@
+  319  cd Documents
+  320  mkdir myFolder
+  321  cd myFolder
+  322  cp ../../Downloads/file1.txt .
+  323  cp ../../Downloads/file2.txt .
+  324  ls
+  325  touch newfile.txt
+  326  ls
+  327  cat file1.txt file2.txt > newfile.txt
+  328  cat newfile.txt
+  329  echo This line is newly added >> newfile.txt
+  330  cat newfile.txt
+  331  ls -l
+  332  chmod u+x newfile.txt
+  333  chmod g-w newfile.txt
+  334  ls -l
+  335  cd ..
+  336  rm -d -r myFolder
+  337  ls
+  338  history
+  339  history 21 > 011211036_3.txt
